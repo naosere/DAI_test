@@ -1,4 +1,4 @@
-console.log("hola");
+/*console.log("hola");
 
 import fs from 'fs';
 fs.writeFileSync('archivo.txt', 'Hola, este es un archivo de texto');
@@ -20,3 +20,11 @@ const mensajeSegundo = cowsay.say({
     T: 'U '
 });
 console.log(mensajeSegundo);
+*/
+
+import { sumar, restar, dividir, multiplicarPI } from "./ejercicio2.js"
+
+console.log(sumar(2,3));
+console.log(restar(3,1));
+console.log(multiplicarPI(2));
+console.log(dividir(2,3));
